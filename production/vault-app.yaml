@@ -18,7 +18,7 @@ spec:
         injector:
           enabled: true
           authPath: auth/host-cluster
-          externalVaultAddr: http://192.168.0.184:31820
+          externalVaultAddr: http://vault-server.vault-server.svc.cluster.local:8200
   destination:
     server: https://kubernetes.default.svc
     namespace: vault
