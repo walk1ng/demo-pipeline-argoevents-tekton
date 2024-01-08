@@ -16,7 +16,7 @@ spec:
     spec:
       project: demo-vcluster
       source:
-        repoURL: https://github.com/lanbingcloud/demo-pipeline-argoevents-tekton.git
+        repoURL: https://github.com/walk1ng/demo-pipeline-argoevents-tekton.git
         targetRevision: HEAD
         path: argocd/overlays/production
       destination:

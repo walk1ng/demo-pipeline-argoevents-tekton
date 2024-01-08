@@ -57,7 +57,7 @@ spec:
                       subPath: $(params.REVISION)
                     params:
                     - name: url
-                      value: https://github.com/lanbingcloud/demo-user-project.git
+                      value: https://github.com/walk1ng/demo-user-project.git
                     - name: sparseCheckoutDirectories
                       value: $(params.PIPELINE)
                     - name: revision

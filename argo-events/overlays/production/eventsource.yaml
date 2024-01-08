@@ -7,7 +7,7 @@ spec:
   github:
     user-project:
       repositories:
-        - owner: lanbingcloud
+        - owner: walk1ng
           names:
             - demo-user-project
       webhook:

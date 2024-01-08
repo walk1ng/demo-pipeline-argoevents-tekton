@@ -15,7 +15,7 @@ metadata:
     cert-manager.io/cluster-issuer: org-issuer
 spec:
   rules:
-  - host: vcluster1.lanbing.tech
+  - host: vcluster1.walk1ng.tech
     http:
       paths:
       - path: /
@@ -27,7 +27,7 @@ spec:
               name: https
   tls:
   - hosts:
-    - vcluster1.lanbing.tech
+    - vcluster1.walk1ng.tech
     secretName: vcluster1-cert
 ---
 apiVersion: v1

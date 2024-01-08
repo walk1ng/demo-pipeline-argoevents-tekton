@@ -9,7 +9,7 @@ spec:
   project: demo-pipeline
   source:
     path: user-namespaces
-    repoURL: https://github.com/lanbingcloud/demo-pipeline-argoevents-tekton.git
+    repoURL: https://github.com/walk1ng/demo-pipeline-argoevents-tekton.git
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
