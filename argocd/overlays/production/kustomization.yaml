@@ -4,3 +4,4 @@ resources:
 - ../../base
 patchesStrategicMerge:
 - argocd-server-svc-patch.yaml
+- argocd-repo-server-patch.yaml
