@@ -20,7 +20,7 @@ spec:
       apiToken:
         key: token
         name: github-access
-      wehookSecret:
+      webhookSecret:
         key: secret
         name: github-access
       insecure: true
