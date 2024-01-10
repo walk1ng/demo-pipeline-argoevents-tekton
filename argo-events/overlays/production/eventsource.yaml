@@ -14,7 +14,7 @@ spec:
         endpoint: /user-project
         port: "12000"
         method: POST
-        url: http://webhook.pipeline1.119-8-58-20.nip.io:30080
+        url: http://webhook.pipeline1.119-8-58-20.nip.io
       events:
         - "push"
       apiToken:
