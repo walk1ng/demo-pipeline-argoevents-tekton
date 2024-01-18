@@ -29,3 +29,4 @@ spec:
     targetPort: 12000
   selector:
     eventsource-name: webhook
+  type: NodePort
