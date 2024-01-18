@@ -5,8 +5,9 @@ metadata:
   name: webhook-eventsource
   namespace: argo-events
 spec:
+  ingressClassName: ngrok
   rules:
-  - host: webhook.pipeline1.119-8-58-20.nip.io
+  - host: openly-delicate-escargot.ngrok-free.app
     http:
       paths:
       - path: /
@@ -29,4 +30,4 @@ spec:
     targetPort: 12000
   selector:
     eventsource-name: webhook
-  type: NodePort
+  type: ClusterIP
