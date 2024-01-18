@@ -14,7 +14,7 @@ spec:
         endpoint: /user-project
         port: "12000"
         method: POST
-        url: http://webhook.pipeline1.119-8-58-20.nip.io
+        url:  https://openly-delicate-escargot.ngrok-free.app
       events:
         - "push"
       apiToken:
